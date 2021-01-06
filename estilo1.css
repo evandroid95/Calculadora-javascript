@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+* {
+    padding:0;
+    margin: 0;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    
+}
+body{
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background: green;
+}
+
+.botao_borda[type=button]
+{  
+   width: 39px;
+   height: 15px;
+   margin: 1px;
+   border-radius: 2px;
+   margin: 1px;
+   border:none;
+  
+ 
+}
+
+#shadow{
+    border-color: rgb(131, 3, 29);
+    display: flex;
+    box-shadow: 0px 1px 10px rgb(255, 0, 0)  ;
+    background-color: rgb(252, 223, 7);
+    border-radius: 2px;
+}
+
+
+
+#visor{border-color: crimson;
+
+    box-shadow: 0px 1px 10px rgb(255, 0, 0)  ;
+    background-color:white;
+    
+    
+}
+
+input[type=text]{
+    margin: 1px;
+    border:none;
+    border-radius: 2px;
+
+}
+
+input{
+
+width:calc(100% - 2px); 
+border-color: rgb(131, 3, 29);
+box-shadow: 0px 1px 10px rgb(255, 0, 0)  ;
+background-color: rgb(252, 223, 7);
+
+
+}
+
+
+input[type=button]:hover{
+    filter: brightness(50%);
+    width:39px; 
+    height:15px;
+    transition: ease 0.8s}
+    
+
+input[type=button]:active{
+        transform: scale(1.5);}
+        
+
+
+div#calculadora div{
+    border-color: rgb(131, 3, 29);
+    display: flex;
+    box-shadow: 0px 1px 10px rgb(255, 0, 0)  ;
+    background-color: rgb(252, 223, 7);
+  
+
+}
+
+#quarta {border-radius: 5px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;}
+
+#terceiro {border-radius: 2px;}
+
+#primeira {border-radius: 2px;}
+
+#segunda {border-radius: 2px;}
+
+
+div#quarta .botao_borda1{
+    background: #f12412;
+    border-bottom-left-radius: 35px;
+    }
+
+.botao_borda1{
+    
+    width: 39px;
+    height: 15px;
+    margin: 1px;
+    border-radius: 5px;
+    margin: 1px;
+    border:none;
+  }
+
+div#quarta .botaoborda 
+{background: #2f07c0;}
+
+
+.botaoborda{
+     width: 39px;
+     height: 15px;
+     margin: 1px;
+     border-radius: 2px;
+     margin: 1px;
+     border:none;
+     color: #e8e8e8;
+     
+    }
+
+
+div#quarta .botao_borda4:hover{
+    filter: brightness(50%);
+    border-bottom-right-radius: 35px;
+   
+ }
+
+
+    
+.botao_borda4
+{
+   /*filter:brightness(50%); */
+    background-color: chartreuse;
+    width: 39px;
+    height: 15px;
+    margin: 1px;
+    border-radius: 2px;
+    margin: 1px;
+    border:none;
+ } 
+
+    div#quarta .botao_borda3{
+    
+        border-bottom-right-radius: 35px;
+        }
+
+
+    .botao_borda3
+    {
+       /* filter:brightness(50%);*/
+        background-color: chartreuse;
+        width: 39px;
+        height: 15px;
+        margin: 1px;
+        border-radius: 4px;
+        margin: 1px;
+        border:none
+          } 
+
+    /*order-bottom-right-radius: 35px;
