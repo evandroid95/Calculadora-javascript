@@ -1,5 +1,5 @@
 # Calculadora-javascripit
-## calculadora feita com html css e javascript
+## Calculadora feita com html css e javascript
 
 ## Descrição
 
