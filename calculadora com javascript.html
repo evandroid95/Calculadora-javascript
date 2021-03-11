@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script language="JavaScript" src="calculadora1.js"></script>
+    <link rel="stylesheet" href="estilo1.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <form action=""  name="calc">
+
+<div id ="calculadora">
+
+    <div id="shadow">
+<input type="text"  id="visor" name="visor">
+</div>
+
+<div id="primeira">
+    <input type="button" value="7" class="botao_borda" onclick="botao(value)">  
+    <input type="button" value="8" class="botao_borda" onclick="botao(value)">   
+    <input type="button" value="9" class="botao_borda" onclick="botao(value)">   
+    <input type="button" value="/" class="botao_borda4" onclick="botao(value)">  
+</div>
+    <div id="segunda">
+        <input type="button" value="4" class="botao_borda"onclick="botao(value)">  
+        <input type="button" value="5" class="botao_borda"onclick="botao(value)">  
+        <input type="button" value="6" class="botao_borda"onclick="botao(value)"> 
+        <input type="button" value="*" class="botao_borda4"onclick="botao(value)"> 
+    </div>
+    
+    <div id="terceiro">
+        <input type="button" value="1" class="botao_borda"onclick="botao(value)">  
+        <input type="button" value="2" class="botao_borda"onclick="botao(value)">  
+        <input type="button" value="3"class="botao_borda"onclick="botao(value)"> 
+        <input type="button" value="-"class="botao_borda4"onclick="botao(value)"> 
+    </div>
+
+    <div id="quarta">
+        <input type="button" value="c" class="botao_borda1"onclick="reseta()">  
+        <input type="button" value="0" class="botao_borda"onclick="botao(value)">  
+        <input type="button" value="="class="botaoborda"onclick="calcula()" > 
+        <input type="button" value="+"class="botao_borda3"onclick="botao(value)"> 
+    </div> 
+
+        </div>
+       
+    </form>
+</body>
+</html>
